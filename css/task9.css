@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.red, .green, .blue, .yellow {
+    width: 80px;
+    height: 80px;
+}
+
+.red {
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    left: 22em;
+    top: 10em;
+    transform: rotate(60deg);
+}
+
+.green {
+    background-color: green;
+    display: inline-block;
+    position: absolute;
+    left: 17em;
+    top: 10em;
+}
+
+.yellow {
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+    left: 17em;
+    top: 15em;
+
+}
+
+.blue {
+    background-color: blue;
+    display: inline-block;
+    display: inline-block;
+    position: absolute;
+    left: 22em;
+    top: 15em;
+}
+

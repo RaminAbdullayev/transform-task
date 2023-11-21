@@ -1,0 +1,24 @@
+button {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(255, 83, 83);
+    border: none;
+    color: white;
+    margin-left: 300px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-left: 285px;
+    position: relative;
+    top: 60px;
+    transition: all 200ms linear;
+}
+
+button:active ~ div {
+    transform: translateX(200px);
+}

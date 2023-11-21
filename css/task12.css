@@ -1,0 +1,10 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s linear;
+}
+
+div:hover {
+    transform: scaleX(5);
+}

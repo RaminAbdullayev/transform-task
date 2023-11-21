@@ -1,0 +1,49 @@
+button {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(255, 83, 83);
+    border: none;
+    color: white;
+    margin-left: 300px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-left: 55px;
+    position: relative;
+    top: 60px;
+    transition: all 1s linear;
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    top: 80px;
+    margin-left: 500px;
+
+    position: absolute;
+    transition: all 1s linear;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+button:active ~ .box1 {
+    transform: rotate(360deg);
+}
+
+button:active ~ .box2 {
+    transform: rotate(1turn);
+}
+
+p {
+    padding-top: 80px;
+}

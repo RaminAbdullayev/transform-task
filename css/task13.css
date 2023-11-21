@@ -1,0 +1,15 @@
+div {
+    border-radius: 50%;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    transition: all 1s linear;
+}
+
+div:hover {
+    transform: scale(2.5);
+}
+
+div:hover {
+    transform: translate(50px);
+}

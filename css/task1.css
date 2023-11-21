@@ -1,0 +1,23 @@
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-left: 285px;
+    position: relative;
+    top: 60px;
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(255, 83, 83);
+    border: none;
+    color: white;
+    margin-left: 300px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+button:active ~ .green {
+    transform: scale(2,2);
+}
